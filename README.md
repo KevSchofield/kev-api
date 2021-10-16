@@ -30,12 +30,23 @@ import * as kvn from 'kev-api'
 > npm uninstall kev-api
 
 
-## ```Youtube Descarga Por Enlace```
+## ```Youtube Descarga Por Enlace 480p```
 ``` 
 const kvn = require('kev-api');
-const link = 'https://youtu.be/5C8yvJUVB-0'
+const link = 'https://youtu.be/VideoID' //Ejemplo: https://youtu.be/WTxYp9ECnPY
 
 kvn.ytpp(link)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Youtube Descarga Por Enlace 720p```
+``` 
+const kvn = require('kev-api');
+const link = 'https://youtu.be/VideoID' //Ejemplo: https://youtu.be/WTxYp9ECnPY
+
+kvn.ythd(link)
     .then(result => {
      console.log(result)
 });

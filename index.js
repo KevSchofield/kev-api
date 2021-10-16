@@ -1,3 +1,4 @@
-const { ytpp } = require('./lib/function')
+const { ytpp, ythd } = require('./lib/function')
 
 module.exports.ytpp = ytpp
+module.exports.ythd = ythd
