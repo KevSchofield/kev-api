@@ -1,6 +1,6 @@
 {
   "name": "kev-api",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "kev-api",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/KevSchofield/kev-api.git"
   },
   "keywords": [
-    "YNTKTS"
+    "kvn"
   ],
   "author": "KevSchofield",
   "license": "ISC",
