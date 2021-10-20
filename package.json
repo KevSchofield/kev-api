@@ -1,6 +1,6 @@
 {
   "name": "kev-api",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "kev-api",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,10 @@
   "dependencies": {
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.10",
-    "qs": "^6.10.1"
+    "form-data": "^4.0.0",
+    "got": "^11.8.2",
+    "qs": "^6.10.1",
+    "yt-search": "^2.8.0"
   },
   "directories": {
     "lib": "lib"

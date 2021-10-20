@@ -3,7 +3,7 @@
 
 # _**CREATED BY KEVIN SCHOFIELD**_
 
-## WhatsApp Youtube Api!
+## WhatsApp Scrapper Api!
 > 
 >
 </div><br/>
@@ -50,4 +50,15 @@ kvn.ythd(link)
     .then(result => {
      console.log(result)
 });
+```
+
+## ```Buscador De Stickers```
+``` 
+const kvn = require('kev-api');
+
+(async () => {
+    await kvn.stickersh(`Mario Kart`).then(Resultado => {
+        console.log(Resultado)
+    })
+})()
 ```
