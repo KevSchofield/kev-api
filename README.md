@@ -46,7 +46,7 @@ kvn.ytpp(link)
 const kvn = require('kev-api');
 const link = 'https://youtu.be/VideoID' //Ejemplo: https://youtu.be/WTxYp9ECnPY
 
-kvn.ythd(link)
+kvn.ytmg(link)
     .then(result => {
      console.log(result)
 });
@@ -61,4 +61,24 @@ const kvn = require('kev-api');
         console.log(Resultado)
     })
 })()
+```
+
+## ```Descargar Archivos De Mediafire```
+``` 
+const kvn = require('kev-api');
+const link = const link = 'https://www.mediafire.com/file/FileID' //Ejemplo: https://www.mediafire.com/file/mrolvfl9oj0jstk/Only_Test.rar
+
+    const resultado = await kvn.mediafire(link)
+        console.log(resultado)
+```
+
+## ```Busqueda En Wikipedia```
+``` 
+const kvn = require('kev-api');
+const query = 'Pokemon'
+
+kvn.wikipedia(query)
+    .then(result => {
+     console.log(result)
+});
 ```
